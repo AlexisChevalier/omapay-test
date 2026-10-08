@@ -1,0 +1,15 @@
+# Omapay payment descriptor (format version 1).
+# Payments to this repository are split 70/30 between the two addresses below.
+version = 1
+name = "Omapay test"
+fallback = "0xF98891616662B87C6920F9bD11510cd6c1E1671C"
+
+[[recipients]]
+address = "0xF98891616662B87C6920F9bD11510cd6c1E1671C"
+weight = 70
+label = "Main address"
+
+[[recipients]]
+address = "0xc8603b6CA56e168bfB0bd30A35C84d459f527471"
+weight = 30
+label = "Second address"
