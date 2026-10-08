@@ -3,6 +3,7 @@
 version = 1
 name = "Omapay test"
 fallback = "0xF98891616662B87C6920F9bD11510cd6c1E1671C"
+chains = ["eip155:84532"]
 
 [[recipients]]
 address = "0xF98891616662B87C6920F9bD11510cd6c1E1671C"
